@@ -1,0 +1,28 @@
+/*************************
+*
+* Mobile First
+*
+*************************/
+
+.button {
+    height: 50px;
+    width: 150px;
+    align-self: center;
+    justify-self: right;
+    background: none;
+    border: 1px solid black;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        background: black;
+        color: white;
+    }
+
+    &.disabled {
+        background: #dce0e0;
+        border: 1px solid #eaecec;
+        cursor: not-allowed;
+    }
+}

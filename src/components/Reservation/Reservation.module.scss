@@ -1,0 +1,92 @@
+/*************************
+*
+* Mobile First
+*
+*************************/
+
+.reservation {
+    grid-column: 3 / -3;
+}
+
+.title {
+    font-size: 30px;
+    margin: 0;
+    padding: 40px 0 40px;
+}
+
+.container {
+    border: 1px solid #000000;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 30px;
+}
+
+.row {
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    h4 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    p {
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+
+    grid-row: 2;
+
+    &:first-child {
+        grid-row: 1;
+    }
+
+    &:nth-child(2) {
+        grid-column: 1;
+    }
+
+    &:nth-child(3) {
+        grid-column: 2;
+    }
+}
+
+.back {
+    display: grid;
+    grid-column: 3 / span 2;
+    grid-template-columns: 24px auto;
+    padding-top: 40px;
+    grid-column-gap: 10px;
+    cursor: pointer;
+
+    img {
+        width: 24px;
+    }
+
+    p {
+        align-self: center;
+    }
+
+    a {
+        color: black;
+        &:hover {
+            color: #8b9898;
+        }
+    }
+}
+
+.link {
+    display: grid;
+    grid-template-columns: 24px auto;
+    grid-column-gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.loading {
+    padding-top: 80px;
+    grid-column: 3  / -3;
+    font-size: 28px;
+}

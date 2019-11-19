@@ -1,0 +1,23 @@
+/*************************
+ *
+ * Mobile First
+ *
+ *************************/
+
+.input {
+    max-width: 400px;
+    margin-bottom: 20px;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        height: 30px;
+        width: 300px;
+        border: 1px solid black;
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+}

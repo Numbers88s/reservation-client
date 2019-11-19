@@ -1,0 +1,21 @@
+/*************************
+ *
+ * Mobile First
+ *
+ *************************/
+
+.title {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    margin-bottom: 40px;
+    input {
+        height: 30px;
+        border: 1px solid black;
+        padding: 5px 10px;
+        width: 125px;
+        font-size: 16px;
+    }
+}
